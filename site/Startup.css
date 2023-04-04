@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*This got rid of that weird border in the top*/
+}
+
+
+@media  (min-aspect-ratio:1/1){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        /*This got rid of that weird border in the top left*/
+    }
+    .infotext{
+        margin-left: 2vw;
+        font: 1.5vw arial;
+    }
+    .Check123{
+        margin-left: 2vw;
+        height: 2vw;
+        width: 2vw;
+    }
+    .header{
+        font: 2vw Arial;
+        font-weight: bold;
+        margin-left: 2vw;
+    }
+    .mnavbar{
+        display: none;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 10vw 80vw 10vw;
+        grid-template-rows:4vw;
+        background-color: #028EE6;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        width: 100vw;
+        text-align: center;
+    }
+    .Menu{
+        display: block;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 2vw Arial;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .mainBody{
+        display: block;
+
+        margin: 12vw;
+        background-color: white;
+        width: 87vw;
+        text-align: center;
+    }
+    
+    .textInput{
+        border-style: solid;
+        border-color: black;
+        border-width: 4px;
+        width: 30vw;
+        height: 3vw;
+        margin: 3vw;
+        font: 2vw Arial;
+        white-space: nowrap;
+    }
+    
+    .buttonDiv{
+        padding-left: 5vw;
+    }
+    
+    .subButton{
+        width: 16vw;
+        height: 7vw;
+        font: 4vw Arial;
+    }
+    
+    
+
+
+    .Footer
+    {
+        display: grid;
+        grid-template-columns: 40vw 20vw 20vw 20vw;
+        background-color: #028EE6;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+    .FooterItem{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 1vw Arial;
+        text-decoration: none;
+        color: white;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        display: block;
+        font-weight: bold;
+
+    }
+
+
+
+
+}
+/*  Media query for mobile devices. If device screen width is smaller than height then gets treated as mobile device*/
+@media  (max-aspect-ratio:1/1){
+    *{
+
+        box-sizing: border-box;
+    }
+    .header{
+        font: 10vw Arial;
+        font-weight: bold;
+        margin-left: 2vw;
+    }
+    
+  
+    .infotext{
+        margin-left: 5vw;
+        font: 6vw arial;
+    }
+    .Check123{
+        margin-left: 5vw;
+        height: 10vw;
+        width: 10vw;
+    }
+    .formclass{
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: 50vw 50vw;
+
+
+    }
+    .textInput{
+        border-style: solid;
+        border-color: black;
+        border-width: 4px;
+        width: 80vw;
+        height: 10vw;
+        margin: 5vw;
+        font: 5vw Arial;
+        white-space: nowrap;
+    }
+    
+    .buttonDiv{
+        padding-left: 5vw;
+    }
+    
+    .subButton{
+        width: 50vw;
+        height: 15vw;
+        font: 10vw Arial;
+    }
+    
+    
+    .buttondiv{
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 40vw 40vw;
+    
+    }
+
+
+
+    
+
+    
+
+    .navbar
+    {
+        display: none;
+    }
+    .mnavbar{
+        background-color: #028EE6;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 7vw Arial;
+        text-decoration: none;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: black;
+        border-width: 4px;
+
+    }
+    .DDopen{
+        
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+    }
+    .MMenu{
+        width: 100%;
+        display: block;
+        border-style: solid;
+        text-decoration: none;
+        color: black;
+        border-width: 4px;
+        border-color: black transparent  black transparent;
+    }
+    #myDropdown{
+        display: none;
+        width: 100%;
+        
+
+    }
+
+ 
+    
+
+    .Footer{
+        display: block;
+        width: 100vw;
+        height: auto;
+        background-color:   #028EE6 ;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+
+    }
+
+    .FooterItem{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 5vw Arial;
+        text-decoration: none;
+        color: white;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        display: block;
+        font-weight: bold;
+    }
+    
+
+}
+
