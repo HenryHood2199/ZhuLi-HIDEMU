@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang=\"en-GB\">
 <head>
     
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     
     <style>
     
@@ -465,18 +465,18 @@
 <script>
     function SHDD(){
         try{
-        //alert("test");//debug test
-        var x = document.getElementById("myDropdown");//passes dom element into variables
+        //alert(\"test\");//debug test
+        var x = document.getElementById(\"myDropdown\");//passes dom element into variables
         //if dropdown display is block change it to none, else change it to block
-        if (x.style.display == "block"){
-            x.style.display = "none";
+        if (x.style.display == \"block\"){
+            x.style.display = \"none\";
         }
         else{
-            x.style.display = "block";
+            x.style.display = \"block\";
         }
         }
         catch(error){
-            console.error("DropDown error: "+error);
+            console.error(\"DropDown error: \"+error);
 
         }
     }
@@ -487,40 +487,40 @@
     
 </head>
 <body>
-    <div class="mobile-container">
-        <div class="Titlebar">
-            <a href="index.html"></a>
+    <div class=\"mobile-container\">
+        <div class=\"Titlebar\">
+            <a href=\"index.html\"></a>
             
         </div>
 
-        <div class="mnavbar">
-            <a href="javascript:void(0);" class="DDopen" onclick="SHDD()">
+        <div class=\"mnavbar\">
+            <a href=\"javascript:void(0);\" class=\"DDopen\" onclick=\"SHDD()\">
                 Menu
             </a>
-            <div id="myDropdown">
-                <a href="/index.html" class="MMenu">Main</a>
-                <a href="/Edit.html" class="MMenu">Edit</a>
-                <a href="/Logs.html" class="MMenu">Logs</a>
-                <a href="/About.html" class="MMenu">About</a>
-                <a href="javascript:void(0);" class="DDopen" onclick="SHDD()">Close</a>
+            <div id=\"myDropdown\">
+                <a href=\"/index.html\" class=\"MMenu\">Main</a>
+                <a href=\"/Edit.html\" class=\"MMenu\">Edit</a>
+                <a href=\"/Logs.html\" class=\"MMenu\">Logs</a>
+                <a href=\"/About.html\" class=\"MMenu\">About</a>
+                <a href=\"javascript:void(0);\" class=\"DDopen\" onclick=\"SHDD()\">Close</a>
             </div>
         </div>
     </div>
-    <div class="navbar">
+    <div class=\"navbar\">
         <div></div>
-        <a href="/index.html" class="Menu">Main</a>
-        <a href="/Edit.html" class="Menu">Edit</a>
-        <a href="/Logs.html" class="Menu">Logs</a>
-        <a href="/About.html" class="Menu">About</a>
+        <a href=\"/index.html\" class=\"Menu\">Main</a>
+        <a href=\"/Edit.html\" class=\"Menu\">Edit</a>
+        <a href=\"/Logs.html\" class=\"Menu\">Logs</a>
+        <a href=\"/About.html\" class=\"Menu\">About</a>
 
         <div></div>
     </div>
     <div></div>
-    <div class="header">
+    <div class=\"header\">
     About
     </div>
     
-        <div class="logs">
+        <div class=\"logs\">
             <div>
                 This project is an innovative and exciting endeavor that brings together the power of the ESP32 microcontroller and the versatility of the DuckyScript language. This project enables users to simulate keyboard and mouse input on a computer by programming a script in DuckyScript and uploading it to an ESP32 microcontroller, which then emulates the keyboard and mouse actions on the connected computer.
             </div>
@@ -534,9 +534,9 @@
             </div>
             <br>
             <div>
-            This project is open source, which means that anyone can contribute to its development, share their own scripts, and benefit from the knowledge and expertise of the community. There are many exaples of duckyscript available at <a href="https://docs.hak5.org/hak5-usb-rubber-ducky/duckyscript-tm-quick-reference">Hak5</a> to help users get started and make the most of this innovative technology. The github link for this project is:
+            This project is open source, which means that anyone can contribute to its development, share their own scripts, and benefit from the knowledge and expertise of the community. There are many exaples of duckyscript available at <a href=\"https://docs.hak5.org/hak5-usb-rubber-ducky/duckyscript-tm-quick-reference\">Hak5</a> to help users get started and make the most of this innovative technology. The github link for this project is:
             
-            <a href="https://github.com/HenryHood2199/ZhuLi-HIDEMU">GITHUB</a></div>
+            <a href=\"https://github.com/HenryHood2199/ZhuLi-HIDEMU\">GITHUB</a></div>
             <br>
             <div>This project is part of Henry Hood's final individual project for BSc Applied Computer Science at City College plymouth, in conjuction with University of Plymouth. Feel free to use any of this code for your own projects. 
             </div>
