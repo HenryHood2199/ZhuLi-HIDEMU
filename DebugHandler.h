@@ -10,15 +10,11 @@ void startLog(){
 
 String loadLog(){
   String rLog ="";
-  for(int j =0; j < 100; j++){
-      Dlog[j]= "";
 
-
-  }
-  for(int i = 0; i < 100; i++){
+  for(int i = 0; i < 99; i++){
     rLog += "<div class=\"logItem\">";
     rLog += Dlog[i];
-    rLog += "</div>"; 
+    rLog += "</div>\n"; 
   }
 
   
@@ -26,7 +22,7 @@ String loadLog(){
 }
 
 void addLog(String inLog){
-  for(int j =99; j > 0; j--){
+  for(int j =99; j > -1; j--){
     Dlog[j+1]= Dlog[j];
   }
   Dlog[0] = inLog;

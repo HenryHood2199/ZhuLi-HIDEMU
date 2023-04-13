@@ -7,7 +7,6 @@ void executeSpec(String inCommandArr[]) {
   char charArr[100];
   
   for (int i = 0; i < 20; i++) {
-    
     if( inCommandArr[i] == "ENTER"){Keyboard.press(KEY_RETURN);}
     else if (inCommandArr[i] == "ESCAPE") {Keyboard.press(KEY_ESC);}
     else if (inCommandArr[i] == "PAUSE" || inCommandArr[i] == "BREAK") {/*Keyboard.press(0x48 );*/Serial.println("pause break not available");}

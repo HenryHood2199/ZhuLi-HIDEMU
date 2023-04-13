@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include <EEPROM.h>
-#define EEPROM_SIZE 8190
+#define EEPROM_SIZE 8150
 
 
 void writeStringToEEPROM(int addrOffset, const String &strToWrite)
@@ -42,9 +42,9 @@ void setupFlash()
   if (!EEPROM.begin(EEPROM_SIZE))
   {
     Serial.println("failed to initialise EEPROM");
-    
+    return;
   }
-
+  Serial.println("Flash started successfully");
 }
 
 //https://roboticsbackend.com/arduino-write-string-in-eeprom/#Write_the_String 
