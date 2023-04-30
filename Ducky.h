@@ -54,7 +54,7 @@ void executeSpec(String inCommandArr[]) {
     else if (inCommandArr[i] == "CONTROL" || inCommandArr[i] =="CTRL") {Keyboard.press(KEY_LEFT_CTRL);}
     else if (inCommandArr[i] == "COMMAND") {Keyboard.press(KEY_LEFT_GUI);}
     else if (inCommandArr[i] == "WINDOWS"||inCommandArr[i] =="GUI") {Keyboard.press(KEY_LEFT_GUI);}
-    else if (inCommandArr[i].length() == 1){inCommandArr[i].toCharArray(charArr, 100); Keyboard.press(charArr[0]);}
+    else if (inCommandArr[i].length() == 1){Keyboard.press(inCommandArr[0]);}
     else {Serial.println("notfound in elif for spec");}
     }
   delay(stdDelay);
